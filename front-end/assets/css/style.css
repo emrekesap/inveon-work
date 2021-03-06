@@ -1,0 +1,226 @@
+/*Reset css start*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h6{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration:none;
+}
+/*Reset css end*/
+.page-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 1182px;
+    height: 1000px;
+ }
+.left-column{
+    width: 20%;
+    padding-right: 1%;
+ }
+.right-column{
+    display: inline-table;
+    width: 80%;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+ }
+.box-v1{
+    border-radius: 0;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+ }
+.box-v1 h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    color: #484848;
+    margin-bottom: 19px;
+}
+.category-list li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    color: #484848;
+}
+.category-list li a:hover{
+    opacity: 0.5;
+}
+.category-list li a span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    color: #484848;
+    opacity: 0.5;
+    margin-left: 5px;
+}
+.grid-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+.grid-container ul{
+    display: flex;
+    padding: 20px 15px;
+}
+.grid-container ul li:first-child{
+    border-right: 1px solid #e5e5e5;
+}
+.grid-container ul li a{
+    color: #919191;
+}
+.grid-container ul li a:hover{
+    color: #FF6000;
+}
+.grid-container ul li a .active{
+    color: #FF6000;
+}
+.grid-container i{
+    font-size: 32px;
+}
+.product-container{
+    display: flex;
+    width: 100%;
+}
+.product-container ul{
+    display: flex;
+    flex-flow: row wrap;
+}
+.product-container ul li{
+    float: left;
+    width: 25%;
+    min-height: 370px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+}
+.p-item{
+    padding: 20px;
+}
+.p-figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-figure figure img{
+    height: 180px;
+}
+.p-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #484848;
+    margin-bottom: 10px;
+}
+.p-price-container{
+    display: flex;
+    margin-bottom: 8px;
+}
+.percent-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 44px;
+    height: 32px;
+    background-color: #F90909;
+    border-radius: 2px;
+}
+.percent-box span{
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+}
+.price{
+    margin-left: 10px;
+}
+.old-price{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration:line-through;
+    color: #919191;
+}
+.new-price{
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    color: #484848;
+}
+.p-discount-container{
+    width: 100%;
+    height: 48px;
+    border-radius: 2px;
+    background-color: #f4f4f4;
+    padding-left:8px;
+    margin-top: 4px;
+}
+.green-title{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #349e00;
+}
+.green-title span{
+    font-weight: 800;
+}
+.bottom-title{
+    margin-top:16px;
+}
+.p-discount-price{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 18px;
+    color: #484848;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination li{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 32px;
+    margin-right: 10px;
+    color: white;
+}
+.pagination li a{
+    display: block;
+    width: 51px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #eee;
+    color: #484848;
+}
+.pagination li a:hover{
+    background-color: #BFBFBF;
+}
+.pagination li a.active{
+    background-color: #FF6000;
+    color: white;
+}
+.pagination .triple-dot a{
+    width: 20px;
+    background-color: white;
+}
+.pagination .triple-dot a:hover{
+    background-color: white;
+}
